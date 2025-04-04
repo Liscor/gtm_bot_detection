@@ -34,7 +34,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
 
-injectScript("https://cdn.jsdelivr.net/gh/Liscor/gtm_bot_detection@latest/gtm_botd_templ.min.js",data.gtmOnSuccess(),data.gtmOnFailure());
+injectScript("https://cdn.jsdelivr.net/gh/Liscor/gtm_bot_detection@5664373/gtm_botd_templ.js",data.gtmOnSuccess(),data.gtmOnFailure());
 
 
 ___WEB_PERMISSIONS___
@@ -54,7 +54,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://cdn.jsdelivr.net/gh/Liscor/gtm_bot_detection@latest/gtm_botd_templ.min.js"
+                "string": "https://cdn.jsdelivr.net/gh/Liscor/gtm_bot_detection@5664373/gtm_botd_templ.js"
               }
             ]
           }
@@ -76,6 +76,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 4/4/2025, 8:58:25 PM
+Created on 4/4/2025, 9:16:24 PM
 
 
